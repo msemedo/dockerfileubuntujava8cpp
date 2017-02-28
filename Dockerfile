@@ -10,4 +10,4 @@ RUN apt-get -y update && \
 	apt-get -y update && \ 
 	apt-get install -y oracle-java8-installer && \
 	apt-get clean
-#CMD /bin/bash
+CMD /bin/bash
